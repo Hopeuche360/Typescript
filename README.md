@@ -2,7 +2,8 @@
 
 This code basically covers the essentials of Typescript. 
 
-##Topics Covered
+#Topics Covered
+
 The topics covered include but not limited to:
 1. Classes
 2. Inheriatnces
