@@ -1,0 +1,21 @@
+"use strict";
+var Student = /** @class */ (function () {
+    function Student(_firstname, _lastname, _age) {
+        this._firstname = _firstname;
+        this._lastname = _lastname;
+        this._age = _age;
+    }
+    Object.defineProperty(Student.prototype, "firstname", {
+        get: function () {
+            return this._firstname;
+        },
+        set: function (value) {
+            this._firstname = value;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return Student;
+}());
+var customer = new Student("Hope", "Chijuka", 23);
+console.log(customer.firstname);
